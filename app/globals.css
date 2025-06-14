@@ -1,0 +1,60 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  color: white;
+  font-size: 10px;
+  background-color: #19191c;
+}
+.carta {
+  display: flex;
+  width: 364px;
+  height: 100px;
+  border-radius: 8px;
+  background-color: #29292e;
+  padding: 0 1rem;
+  align-items: center;
+  gap: 55px;
+}
+.carta-adentro {
+  display: flex;
+  gap: 0 1rem;
+}
+.imagen {
+  width: 80px;
+}
+
+.icono {
+  width: 34px;
+  height: 34px;
+}
+.palabras {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 140px;
+  text-align: left;
+}
+.palabras h2 {
+  text-align: left;
+  font-weight: 800;
+  margin-bottom: 7px;
+}
+.palabras p {
+  text-align: left;
+}
+
+.padre {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
